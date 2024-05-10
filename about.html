@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        header {
+            background-color: #fff422;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 15px 10px; /* Adjusted padding */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #fff422;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: linear-gradient(to right, #1b1642, #6c5ce7); /* Gradient background on hover */
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff422;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            color: #333;
+        }
+
+        .about-content h2 {
+            color: #6c5ce7;
+        }
+
+        .about-content p {
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        .about-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners to the images */
+        }
+
+        .left-image {
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 200px;
+            border-radius: 10px; /* Optional: Add rounded corners to the images */
+        }
+
+        .right-image {
+            position: absolute;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 200px;
+            border-radius: 10px; /* Optional: Add rounded corners to the images */
+        }
+
+        footer {
+            background: #fff422;
+            color: #060000;
+            text-align: center;
+            padding: 20px; /* Adjusted padding */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Unique Paints</title>
+</head>
+
+<body>
+    <header>
+        <h1>Unique Paints</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="about-content">
+            <!-- Left image -->
+            <img src="pic3.jpg" alt="Left Image" class="left-image" width="300" height="300">
+
+            <!-- Content -->
+            <h2>About Us</h2>
+            <p>Welcome to Unique Paints, your trusted partner in transforming spaces with the magic of colors! At Unique
+                Paints, we take pride in our expertise and commitment to delivering exceptional wall painting
+                services.</p>
+            <p>Our team of skilled artists is passionate about creating personalized and vibrant atmospheres. We
+                specialize in a wide range of colors, textures, and finishes to suit your unique style and vision. From
+                soothing pastels to bold and expressive hues, we offer a spectrum of choices to make your walls come
+                alive.</p>
+            <p>Discover the art of wall coloring with Unique Paints. Let us transform your vision into a masterpiece that
+                reflects your personality and enhances the beauty of your surroundings.</p>
+
+            <!-- Right image -->
+            <img src="pic2.jpg" alt="Right Image" class="right-image" width="300" height="300">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

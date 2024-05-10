@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafaf5;
+        }
+
+        header {
+            background-color: #fff422;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 15px 10px; /* Adjusted padding */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff422;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #631f1f;
+        }
+
+        section {
+            position: relative;
+            padding: 20px; /* Adjusted padding */
+            text-align: center;
+            background-color: #fffffc;
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .service {
+            flex: 0 0 45%;
+            margin: 20px;
+            padding: 15px; /* Adjusted padding */
+            background-color: #fff422;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .left-image,
+        .right-image {
+            position: absolute;
+            max-width: 400px; /* Adjusted max-width */
+            border-radius: 10px;
+        }
+
+        .left-image {
+            left: 20px;
+            top: 70%; /* Adjusted top value to move the image more down */
+            transform: translateY(-50%);
+        }
+
+        .right-image {
+            right: 20px;
+            top: 70%; /* Adjusted top value to move the image more down */
+            transform: translateY(-50%);
+        }
+
+        h2,
+        h3 {
+            color: #000000;
+        }
+
+        p {
+            color: #000000;
+        }
+
+        footer {
+            background-color: #fff422;
+            color: #000000;
+            text-align: center;
+            padding: 20px; /* Adjusted padding */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Unique Paints</title>
+</head>
+
+<body>
+    <header>
+        <h1>Unique Paints</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <!-- Left image -->
+        <img src="pic5.jpg" alt="Left Image" class="left-image" width="320" height="150">
+
+        <!-- Right image -->
+        <img src="pic4.jpg" alt="Right Image" class="right-image" width="320" height="150">
+
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3 style="color: #6c5ce7;">Interior Wall Painting</h3>
+                <h5><p>Transform the interior of your space with our expert wall painting services. Choose from a variety of colors and finishes to match your style.</p></h5>
+            </div>
+            <div class="service">
+                <h3 style="color: #27ae60;">Exterior Wall Painting</h3>
+                <h5><p>Enhance the curb appeal of your property with our high-quality exterior wall painting. We use weather-resistant paints to ensure long-lasting beauty.</p></h5>
+            </div>
+            <div class="service">
+                <h3 style="color: #f39c12;">Mural Art</h3>
+                <h5><p>Make a bold statement with custom mural art. Our talented artists can bring your ideas to life, creating unique and personalized murals for any space.</p></h5>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
